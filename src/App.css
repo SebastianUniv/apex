@@ -1,0 +1,25 @@
+/*
+    Load local fonts in application
+*/
+@font-face {
+    font-family: 'Rubik';
+    src: local('Rubik'), url(./assets/fonts/rubik/Rubik-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Rubik-Light';
+    src: local('Rubik'), url(./assets/fonts/rubik/Rubik-Light.ttf) format('truetype');
+    font-weight: lighter;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Space Mono';
+    src: local('Space Mono'), url(./assets/fonts/space-mono/SpaceMono-Regular.ttf) format('truetype');
+}
+/*
+    Set height to full viewpoint so other elements can be dynamically adjusted
+*/
+#root {
+    height: 100vh;
+  }

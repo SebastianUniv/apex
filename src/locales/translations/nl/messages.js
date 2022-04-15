@@ -1,0 +1,1 @@
+/*eslint-disable*/module.exports={messages:{"Page not found":"Pagina niet gevonden"}};

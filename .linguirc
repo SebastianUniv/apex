@@ -1,0 +1,16 @@
+{
+    "locales": [
+        "en",
+        "nl"
+    ],
+    "sourceLocale": "en",
+    "catalogs": [
+        {
+            "path": "src/locales/translations/{locale}/messages",
+            "include": [
+                "src"
+            ]
+        }
+    ],
+    "format": "po"
+}
